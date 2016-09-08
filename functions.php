@@ -39,6 +39,7 @@ require 'inc/custom-field-billing.php';
 // Add alt tags to img
 require 'inc/add-alt-tags.php';
 
+// Dev localhost; comentar en modo producción
 require 'inc/localhost.php';
 
 
