@@ -59,7 +59,7 @@ function custom_storefront_template_hook() {
  */
 	remove_action( 'storefront_content_top', 'woocommerce_breadcrumb', 10 );
 /**
- * After Single Products Summary Div.
+ * After Single Products Summary Div. (Pluggin Woocommerce)
  *
  * @see woocommerce_output_product_data_tabs()
  * @see woocommerce_upsell_display()
