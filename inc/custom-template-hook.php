@@ -59,6 +59,16 @@ function custom_storefront_template_hook() {
  */
 	remove_action( 'storefront_content_top', 'woocommerce_breadcrumb', 10 );
 /**
+ * Pages
+ *
+ * @see  storefront_page_header()
+ * @see  storefront_page_content()
+ * @see  storefront_init_structured_data()
+ * @see  storefront_display_comments()
+ */
+remove_action( 'storefront_page', 'storefront_page_header', 10 );
+
+/**
  * After Single Products Summary Div. (Pluggin Woocommerce)
  *
  * @see woocommerce_output_product_data_tabs()
