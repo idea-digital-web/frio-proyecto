@@ -73,7 +73,7 @@ function storefront_secondary_navigation_wrapper_close() {
  * Custom H1 Storefront Page Header
  */
 function custom_storefront_page_header () {
-	if (is_page(array('mi-cuenta', 'Carrito'))): ?> 
+	if (!is_page('Home')): ?> 
 	<header class="entry-header">
 		<?php
 			storefront_post_thumbnail( 'full' );
