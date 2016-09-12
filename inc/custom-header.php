@@ -67,3 +67,18 @@ function storefront_secondary_navigation_wrapper() {
 function storefront_secondary_navigation_wrapper_close() {
 	echo '</section>';
 }
+
+
+/**
+ * Custom H1 Storefront Page Header
+ */
+function custom_storefront_page_header () {
+	if (is_page(array('mi-cuenta', 'Carrito'))): ?> 
+	<header class="entry-header">
+		<?php
+			storefront_post_thumbnail( 'full' );
+			the_title( '<h1 class="entry-title">', '</h1>' );
+		?>
+	</header><!-- .entry-header -->
+	<?php endif;
+}

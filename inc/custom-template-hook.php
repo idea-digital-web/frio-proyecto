@@ -67,6 +67,7 @@ function custom_storefront_template_hook() {
  * @see  storefront_display_comments()
  */
 remove_action( 'storefront_page', 'storefront_page_header', 10 );
+add_action( 'storefront_page', 'custom_storefront_page_header', 10 );
 
 /**
  * After Single Products Summary Div. (Pluggin Woocommerce)
