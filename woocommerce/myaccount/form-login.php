@@ -92,7 +92,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<input type="email" class="input-text" name="email" id="reg_email" value="<?php if ( ! empty( $_POST['email'] ) ) echo esc_attr( $_POST['email'] ); ?>" />
 			</p>
 
-			<div class="g-recaptcha" data-sitekey="6LfhGyoTAAAAAPpBopOFsh5hHCjpdG884cOwhezv"></div>
 
 			<?php if ( 'no' === get_option( 'woocommerce_registration_generate_password' ) ) : ?>
 
@@ -108,6 +107,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<?php do_action( 'woocommerce_register_form' ); ?>
 			<?php do_action( 'register_form' ); ?>
+
+			<div class="g-recaptcha" data-sitekey="6LfhGyoTAAAAAPpBopOFsh5hHCjpdG884cOwhezv"></div>
 
 			<p class="form-row">
 				<?php wp_nonce_field( 'woocommerce-register' ); ?>

@@ -1,3 +1,9 @@
+commit caccae5922ead7ca3a81a7c93ab9ebc6521c8ef8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 14 17:27:57 2016 -0400
+
+    Agregada recaptcha
+
 commit 4ae4e922f6409035a20a25895845a6f3c0939cf5
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 14 15:09:19 2016 -0400
