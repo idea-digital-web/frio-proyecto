@@ -24,16 +24,16 @@ function wooc_validate_re_captcha_field( $username, $email, $wpErrors )
             {
                 case 'missing-input-secret':
                 case 'invalid-input-secret':
-                    $wpErrors->add( 'recaptcha', __( '<strong>ERROR</strong>: Invalid reCAPTCHA secret key.', 'woocommerce' ) );
+                    $wpErrors->add( 'recaptcha', __( '<strong>ERROR</strong>: Invalido reCAPTCHA secret key.', 'woocommerce' ) );
                     break;
 
                 case 'missing-input-response' :
                 case 'invalid-input-response' :
-                    $wpErrors->add( 'recaptcha', __( '<strong>ERROR</strong>: Please check the box to prove that you are not a robot.', 'woocommerce' ) );
+                    $wpErrors->add( 'recaptcha', __( '<strong>ERROR</strong>: Por favor chequea reCaptcha, para comprobar que no eres un robot.', 'woocommerce' ) );
                     break;
 
                 default:
-                    $wpErrors->add( 'recaptcha', __( '<strong>ERROR</strong>: Something went wront validating the reCAPTCHA.', 'woocommerce' ) );
+                    $wpErrors->add( 'recaptcha', __( '<strong>ERROR</strong>: Por favor chequea reCaptcha, para comprobar que no eres un robot.', 'woocommerce' ) );
                     break;
             }
         }
