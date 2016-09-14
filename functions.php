@@ -45,6 +45,8 @@ require 'inc/localhost.php';
 // Eliminar meta tag generator = version WordPress y Versión de Tema
 require 'inc/change-wp-head.php';
 
+require 'inc/recaptcha-register.php';
+
 
 
 
