@@ -45,8 +45,6 @@ require 'inc/localhost.php';
 // Eliminar meta tag generator = version WordPress y Versión de Tema
 require 'inc/change-wp-head.php';
 
-// Cambiar autor en el url
-require 'inc/change-author-permalinks.php';
 
 
 
