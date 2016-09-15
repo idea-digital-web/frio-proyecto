@@ -1,3 +1,9 @@
+commit a8373bdd439fddaa220ed182d451bd4ecad26754
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 14 19:50:19 2016 -0400
+
+    Traduciendo mensajes de error recaptcha
+
 commit a68ef53bdd292f4000da063c286b4c6b468c9a1a
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 14 18:00:53 2016 -0400
