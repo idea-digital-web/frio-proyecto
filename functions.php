@@ -39,7 +39,6 @@ require 'inc/custom-field-billing.php';
 // Add alt tags to img
 require 'inc/add-alt-tags.php';
 
-
 // Eliminar meta tag generator = version WordPress y Versión de Tema
 require 'inc/change-wp-head.php';
 
@@ -48,6 +47,9 @@ require 'inc/recaptcha-register.php';
 
 // MODO PRODUCCIÓN
 require 'inc/autoupdate.php';
+
+// Restringir Login
+require 'inc/restringir-login.php';
 
 
 
