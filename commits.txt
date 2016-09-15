@@ -1,3 +1,9 @@
+commit 0a9a19c72382a1650d8b6254894b4915181a1b98
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 15 11:17:56 2016 -0400
+
+    Mejorando footer formcraft
+
 commit 3f83a3111e6921646c936cb7ee7af08931f6ba94
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Sep 15 10:37:45 2016 -0400

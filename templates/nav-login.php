@@ -25,7 +25,7 @@
 			</button>
 			<ul id="menuDropdownUl" class="hide dropdown-menu fadeIn">
 				<?php if (current_user_can('administrator') || current_user_can('shop_manager')): ?>
-				<li><a id="itemPanel" href="<?php home_url();?>/wp-admin/"><i class="fa fa-tachometer" aria-hidden="true"></i>Escritorio</a></li>
+				<li><a id="itemPanel" href="<?php home_url();?>/administracion"><i class="fa fa-tachometer" aria-hidden="true"></i>Escritorio</a></li>
 				<?php endif ?>
 				<li><a  id="itemPedidos" href="<?php home_url();?>/mi-cuenta/orders/"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Pedidos</a></li>
 				<li><a  id="itemEditar" href="<?php home_url();?>/mi-cuenta/edit-account/"><i class="fa fa-user" aria-hidden="true"></i>Editar</a></li>
