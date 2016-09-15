@@ -39,8 +39,6 @@ require 'inc/custom-field-billing.php';
 // Add alt tags to img
 require 'inc/add-alt-tags.php';
 
-// Dev localhost; comentar en modo producción
-require 'inc/localhost.php';
 
 // Eliminar meta tag generator = version WordPress y Versión de Tema
 require 'inc/change-wp-head.php';
@@ -48,8 +46,11 @@ require 'inc/change-wp-head.php';
 // Incluir reCaptcha
 require 'inc/recaptcha-register.php';
 
-// Autoupdate
-require 'inc/autoupdate.php';
+// Dev localhost; descomentar en MODO DESARROLLO
+require 'inc/develop.php';
+
+// Autoupdate; descomentar en MODO PRODUCCION
+// require 'inc/production.php';
 
 
 
