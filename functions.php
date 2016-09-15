@@ -47,7 +47,7 @@ require 'inc/change-wp-head.php';
 require 'inc/recaptcha-register.php';
 
 // MODO PRODUCCIÓN
-require 'inc/autoupdate.php'; 
+require 'inc/autoupdate.php';
 
 
 

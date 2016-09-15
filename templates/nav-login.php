@@ -10,7 +10,7 @@
 	<div class="site-header_nav--item site-header_nav--contact">
 		<i class="fa fa-envelope-o">
 		</i>
-		<span><?php get_template_part( 'templates/add', 'email'); ?></span>
+		<span><?php bloginfo('admin_email'); ?></span>
 	</div>
 	<div class="site-header_nav--item site-header_nav--welcome">
 			<?php if ( is_user_logged_in() ) {?>

@@ -1,3 +1,9 @@
+commit 82ceadff5bb1e891cf927b191a89f83a753cab05
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 15 08:44:46 2016 -0400
+
+    Mejorado autoupdate
+
 commit b9c0728ffa403ec5db5d32f9c438e0afea3afa18
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 14 22:53:33 2016 -0400
