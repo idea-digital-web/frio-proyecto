@@ -46,11 +46,8 @@ require 'inc/change-wp-head.php';
 // Incluir reCaptcha
 require 'inc/recaptcha-register.php';
 
-// Dev localhost; descomentar en MODO DESARROLLO
-require 'inc/develop.php';
-
-// Autoupdate; descomentar en MODO PRODUCCION
-// require 'inc/production.php';
+// MODO PRODUCCIÓN
+require 'inc/autoupdate.php'; 
 
 
 
