@@ -48,7 +48,7 @@
 		<span><?php get_template_part( 'templates/add', 'whatsapp'); ?></span>
 	</div>
 	<div class="site-footer__item--contact">
-		<i class="fa fa-envelope"></i>
+		<!-- <i class="fa fa-envelope"></i> -->
 		<span class="email"><?php bloginfo('admin_email'); ?></span>
 	</div>
 <!-- 	<div class="site-footer__item--contact">
