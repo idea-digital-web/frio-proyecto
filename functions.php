@@ -4,6 +4,9 @@
 require 'inc/styles-scripts-fonts.php';
 
 // Custom Storefront Template Hook
+require 'inc/slider-principal.php';
+
+// Custom Storefront Template Hook
 require 'inc/custom-template-hook.php';
 
 // Custom Header

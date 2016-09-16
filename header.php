@@ -80,10 +80,6 @@
 	 */
 	do_action( 'storefront_before_content' ); ?>
 
-	<!-- FlexSlider or Slider Revolution -->
-	<?php get_template_part( 'templates/slider', 'principal' ); ?>
-	<!-- End Slider -->
-
 	<div id="content" class="site-content" tabindex="-1">
 		<div class="col-full">
 
