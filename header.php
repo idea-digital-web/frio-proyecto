@@ -17,10 +17,6 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<!-- SEO -->
-<?php get_template_part( 'templates/seo'); ?>
-<!-- End SEO -->
-
 <!-- Viewport -->
 <?php get_template_part( 'templates/meta-viewport'); ?>
 <!-- End Viewport -->

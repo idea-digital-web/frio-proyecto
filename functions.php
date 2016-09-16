@@ -49,7 +49,7 @@ require 'inc/recaptcha-register.php';
 require 'inc/autoupdate.php';
 
 // Restringir Login
-require 'inc/restringir-login.php'; // Pendiente por si hay algún error
+require 'inc/restringir-login.php';
 
 
 
