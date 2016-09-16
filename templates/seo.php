@@ -1,1 +1,0 @@
-<meta name="yandex-verification" content="7fceb01d4dfa6d5d" />

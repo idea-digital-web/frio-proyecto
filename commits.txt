@@ -1,3 +1,9 @@
+commit 9b74dbd0457bfe3de5d35e28bf05aa4c4b924bd2
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Sep 16 07:12:53 2016 -0400
+
+    Eliminada verificacion yandex
+
 commit 7cae27842c41c83b86373540c8f0fe7ce42739af
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Sep 15 16:55:34 2016 -0400
