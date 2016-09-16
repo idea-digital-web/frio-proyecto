@@ -54,6 +54,9 @@ require 'inc/autoupdate.php';
 // Restringir Login
 require 'inc/restringir-login.php';
 
+// Restringir Login
+require 'inc/rename-login.php';
+
 
 
 
