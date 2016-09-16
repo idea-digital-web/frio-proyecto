@@ -1,28 +1,14 @@
 <?php 
 if ( ! function_exists( 'slider_principal' ) ) {
 	function slider_principal() {
-		echo '
-		<section class="rotate">
-			<div class="flexslider flexslider__principal">
-				<ul class="slides">
-					<li>
-						<a href="#">
-							<img src="http://i0.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-principal-1.png" alt="Slider Principal" />
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="http://i2.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-principal-2.png" alt="Slider Principal" />
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="http://i0.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-principal-3.png" alt="Slider Principal" />
-						</a>
-					</li>
-				</ul>
-			</div>
-		</section>';
+		include_once ABSPATH . 'wp-admin/includes/plugin.php';
+		if ( is_plugin_active( 'revslider/revslider.php' ) ) {
+			putRevSlider("principal", "homepage");
+		} else {
+			if (is_front_page() || is_home()) {
+				get_template_part( 'templates/banner', 'principal' );
+			}
+		}
 	}
 }
 
