@@ -2,31 +2,7 @@
 
 /**
  * HEADER
-/**
-
-/**
- * Agregando Carrito de Compras en el Header
 */
-
-function header_cart() {
-	if ( is_woocommerce_activated() ) {
-		if ( is_cart() ) {
-			$class = 'current-menu-item';
-		} else {
-			$class = '';
-		}
-	?>
-	<ul class="site-header-cart menu">
-		<li class="<?php echo esc_attr( $class ); ?>">
-			<?php storefront_cart_link(); ?>
-		</li>
-		<li>
-			<?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
-		</li>
-	</ul>
-	<?php
-	}
-}
 
 /**
  * Agregar Logo en el Header
@@ -52,6 +28,44 @@ function banner_header() {
 			<img src="http://i1.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-header.png" alt="Banner Header" />
 		</picture>
 	<?php 
+}
+
+// if ( ! function_exists( 'storefront_product_search' ) ) {
+	function storefront_product_search() {
+		if ( is_woocommerce_activated() ) { ?>
+			<div class="site-search-container">
+				<div class="site-search">
+					<?php the_widget( 'WC_Widget_Product_Search', 'title=' ); ?>
+				</div>
+				<div class="site-search-shadow"></div>
+			</div>
+		<?php
+		}
+	}
+// }
+
+/**
+ * Agregando Carrito de Compras en el Header
+*/
+
+function header_cart() {
+	if ( is_woocommerce_activated() ) {
+		if ( is_cart() ) {
+			$class = 'current-menu-item';
+		} else {
+			$class = '';
+		}
+	?>
+	<ul class="site-header-cart menu">
+		<li class="<?php echo esc_attr( $class ); ?>">
+			<?php storefront_cart_link(); ?>
+		</li>
+		<li>
+			<?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
+		</li>
+	</ul>
+	<?php
+	}
 }
 
 /**
