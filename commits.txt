@@ -1,3 +1,9 @@
+commit 6884594860b4f53e31132123eae44bf83d7f9242
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Sep 19 18:15:18 2016 -0400
+
+    Mejorando barra de busqueda
+
 commit 21eb23b09ae6e2e85c760facaf6f577c4a29028d
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Sep 19 16:07:10 2016 -0400
