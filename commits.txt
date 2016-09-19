@@ -1,3 +1,9 @@
+commit 3e6dc59d818f3852d5b8efd4826a33cbfd0c212a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Sep 19 10:23:15 2016 -0400
+
+    Cambiada url wp-admin en nav-login
+
 commit 6879b72d5ce1c2d3fc744d31b4c8a63110b87aa4
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Sat Sep 17 08:37:19 2016 -0400
