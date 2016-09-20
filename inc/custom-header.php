@@ -30,19 +30,20 @@ function banner_header() {
 	<?php 
 }
 
-// if ( ! function_exists( 'storefront_product_search' ) ) {
-	function storefront_product_search() {
-		if ( is_woocommerce_activated() ) { ?>
-			<div class="site-search-container">
-				<div class="site-search">
-					<?php the_widget( 'WC_Widget_Product_Search', 'title=' ); ?>
-				</div>
-				<div class="site-search-shadow"></div>
+/**
+Agrega background shadow a  barra de busqueda
+*/
+function storefront_product_search() {
+	if ( is_woocommerce_activated() ) { ?>
+		<div class="site-search-container">
+			<div class="site-search">
+				<?php the_widget( 'WC_Widget_Product_Search', 'title=' ); ?>
 			</div>
-		<?php
-		}
+			<div class="site-search-shadow"></div>
+		</div>
+	<?php
 	}
-// }
+}
 
 /**
  * Agregando Carrito de Compras en el Header

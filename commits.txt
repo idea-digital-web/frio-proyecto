@@ -1,3 +1,9 @@
+commit a5330bb322a340dd08dcb8f9165e592dec305b17
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Sep 19 18:34:58 2016 -0400
+
+    Agregando url a shadow search
+
 commit 2e8878ff93bf06a00bcf316bee2e3868b4384ab2
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Sep 19 18:29:12 2016 -0400
