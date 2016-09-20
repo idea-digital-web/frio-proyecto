@@ -1,3 +1,9 @@
+commit 0399bca5c89e75bac76593c2471edebc154c3970
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Sep 20 12:26:59 2016 -0400
+
+    Cambiado Buscar por Icon Lupa
+
 commit 16999ebc00637a70b2daf8f4ca3f0501864589ee
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Sep 20 11:58:44 2016 -0400
