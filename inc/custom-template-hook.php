@@ -18,12 +18,18 @@ function custom_storefront_template_hook() {
  * @see  storefront_secondary_navigation()
  * @see  storefront_site_branding()
  * @see  storefront_primary_navigation()
+  * @see  storefront_product_search() ~> woocommerce
+ * @see  storefront_header_cart()~> woocommerce
  */
-	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper', 22 );
-	add_action( 'storefront_header', 'banner_header', 25 );
-	add_action( 'storefront_header', 'header_cart', 35 );
-	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper_close', 41 );
+	remove_action( 'storefront_header', 'storefront_product_search', 40 );
 	remove_action( 'storefront_header', 'storefront_header_cart', 60);
+	remove_action( 'storefront_header', 'storefront_secondary_navigation', 30 );
+	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper', 22 );
+	add_action( 'storefront_header', 'storefront_product_search', 25 );
+	add_action( 'storefront_header', 'header_cart', 26 );
+	add_action( 'storefront_header', 'banner_header', 35 );
+	add_action( 'storefront_header', 'storefront_secondary_navigation', 36 );
+	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper_close', 41 );
 
 /**
  * Footer

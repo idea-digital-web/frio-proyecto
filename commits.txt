@@ -1,3 +1,9 @@
+commit 672cbd992cbd7fdb771b415f653fbad7fb8cca9b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Sep 20 10:55:46 2016 -0400
+
+    Cambiada imagen sombra del search
+
 commit a5330bb322a340dd08dcb8f9165e592dec305b17
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Sep 19 18:34:58 2016 -0400
