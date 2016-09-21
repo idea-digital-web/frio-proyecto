@@ -49,7 +49,7 @@
 	<?php get_template_part( 'templates/nav', 'login' ); ?>
 
 		
-		<div class="col-full">
+		<!-- <div class="col-full"> -->
 
 			<?php
 			/**
@@ -69,7 +69,7 @@
 			 */
 			do_action( 'storefront_header' ); ?>
 
-		</div>
+		<!-- </div> -->
 	</header><!-- #masthead -->
 
 	<?php

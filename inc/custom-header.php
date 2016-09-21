@@ -70,16 +70,30 @@ function header_cart() {
 }
 
 /**
- * Header secondary navigation wrapper
+ * Coll Full
  */
-function storefront_secondary_navigation_wrapper() {
-	echo '<section class="secondary_navigation_wrapper">';
+function coll_full_container() {
+	echo '<div class="col-full">';
 }
 
 /**
- * The secondary navigation wrapper close
+ * Coll Full close
  */
-function storefront_secondary_navigation_wrapper_close() {
+function coll_full_container_close() {
+	echo '</div>';
+}
+
+/**
+ * Header inner container
+ */
+function inner_container() {
+	echo '<section class="inner_container">';
+}
+
+/**
+ * Header inner container close
+ */
+function inner_container_close() {
 	echo '</section>';
 }
 
