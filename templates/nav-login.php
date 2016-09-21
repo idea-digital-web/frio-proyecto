@@ -19,9 +19,10 @@
 			¡Bienvenido!<?php endif?>
 		<nav class="site-header_nav--welcome--dropdown">
 			<button id="menuDropdown">
-				<span>Mi Cuenta</span>
-				<i class="fa fa-chevron-down" aria-hidden="true" id="caretDown"></i>
-				<i class="fa fa-chevron-up hide" aria-hidden="true" id="caretUp"></i>
+				<span><i class="fa fa-th-list" aria-hidden="true"></i>
+</span>
+				<!-- <i class="fa fa-chevron-down" aria-hidden="true" id="caretDown"></i>
+				<i class="fa fa-chevron-up hide" aria-hidden="true" id="caretUp"></i> -->
 			</button>
 			<ul id="menuDropdownUl" class="hide dropdown-menu fadeIn">
 				<?php if (current_user_can('administrator') || current_user_can('shop_manager')): ?>
