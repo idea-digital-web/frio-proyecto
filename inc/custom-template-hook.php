@@ -28,8 +28,8 @@ function custom_storefront_template_hook() {
 	add_action( 'storefront_header', 'storefront_product_search', 25 );
 	add_action( 'storefront_header', 'header_cart', 26 );
 	add_action( 'storefront_header', 'banner_header', 35 );
-	add_action( 'storefront_header', 'storefront_secondary_navigation', 36 );
-	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper_close', 41 );
+	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper_close', 36 );
+	add_action( 'storefront_header', 'storefront_secondary_navigation', 41 );
 
 /**
  * Footer
