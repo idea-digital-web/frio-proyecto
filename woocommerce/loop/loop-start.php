@@ -14,11 +14,11 @@
  * @package 	WooCommerce/Templates
  * @version     2.0.0
  */
-?>
-<?php if (is_front_page() || is_home()): ?>
-
-	<div class="container__products">
-	<ul class="products slides">
-<?php else: ?>
-	<ul class="products">
-<?php endif; ?>
+ if (is_front_page() || is_home() || is_page_template( 'template-homepage.php' )) {
+ 	echo '
+ 	<div class="container__products">
+ 		<ul class="products slides">';
+ 	}else {
+ 		echo '<ul class="products">';
+ 	}
+ ?>
