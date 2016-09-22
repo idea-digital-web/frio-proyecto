@@ -11,7 +11,7 @@
 		<i class="fa fa-cc-mastercard fa-3x"></i>
 	</span>
 </div>
-<div class="site-footer__item">
+<!-- <div class="site-footer__item">
 	<h2>Categorías</h2>
 	<?php wp_nav_menu(
 			array(
@@ -24,13 +24,7 @@
 			)
 		);
 	?>
-</div>
-<div class="site-footer__item">
-	<h2>
-	Mensaje Directo
-	</h2>
-	<?php get_template_part( 'templates/footer', 'formcraft'); ?>
-</div>
+</div> -->
 <div class="site-footer__item">
 	<h2>
 	Contáctenos
@@ -54,4 +48,10 @@
 <!-- 	<div class="site-footer__item--contact">
 		Somos tienda virtual con entregas previo acuerdo.
 	</div> -->
+</div>
+<div class="site-footer__item">
+	<h2>
+	Mensaje Directo
+	</h2>
+	<?php get_template_part( 'templates/footer', 'formcraft'); ?>
 </div>
