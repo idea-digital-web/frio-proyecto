@@ -1,3 +1,9 @@
+commit 1d38ecb4d04c8a1f2147b7717e75bdffeffdf613
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 22 17:16:32 2016 -0400
+
+    Mejorada pagina login
+
 commit 7fe6f6bdad4502694089d3765d3a64519737d3e5
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Sep 22 16:59:26 2016 -0400
