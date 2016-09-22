@@ -11,9 +11,9 @@
 
 		</div><!-- .col-full -->
 		<!-- Agregar Google Maps solo en el hompage -->
-		<!-- <?php if (is_front_page() || is_home()): ?> 
-			<?php get_template_part( 'templates/content', 'googlemap' ); ?>
-		<?php endif; ?> -->
+		<?php if (is_front_page() || is_home() || is_page_template( 'template-homepage.php' ))
+			get_template_part( 'templates/content', 'googlemap' );
+		?>
 	</div><!-- #content -->
 
 

@@ -1,3 +1,9 @@
+commit bdee3c3620bce28f2dbbc261108cdccd36cadc46
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 22 07:41:09 2016 -0400
+
+    Arreglado slides en productos
+
 commit f9dcb47a88a4547d91e47163bf5bcdc08cdf22d0
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 21 21:48:06 2016 -0400
