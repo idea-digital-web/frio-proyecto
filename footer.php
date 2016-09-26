@@ -30,7 +30,7 @@
 				 */
 			do_action( 'storefront_footer' ); ?>
 
-			<?php get_template_part( 'templates/footer', 'content' ); ?>
+			
 
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->

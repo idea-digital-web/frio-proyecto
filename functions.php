@@ -15,6 +15,9 @@ require 'inc/custom-header.php';
 // Custom Content
 require 'inc/custom-content.php';
 
+// Custom Footer
+require 'inc/custom-footer.php';
+
 // Custom Currency (Change Bs F. to Bs.)
 require 'inc/custom-currency.php';
 
