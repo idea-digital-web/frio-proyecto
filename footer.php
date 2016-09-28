@@ -12,7 +12,7 @@
 		</div><!-- .col-full -->
 		<!-- Agregar Google Maps -->
 		<?php if (is_front_page() || is_home() || is_page_template( 'template-homepage.php' ))
-			get_template_part( 'templates/content', 'googlemap' );
+			get_template_part( 'templates/google', 'maps' );
 		?>
 	</div><!-- #content -->
 
