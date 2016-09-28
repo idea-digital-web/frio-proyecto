@@ -1,3 +1,9 @@
+commit 7af1796a4afbdfe11064e0d0965cd2527991c969
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 28 16:11:44 2016 -0400
+
+    Terminado estilos en contenido
+
 commit bb79fded21579b8c9894279fd43b4e185dc8af77
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 28 15:51:15 2016 -0400
