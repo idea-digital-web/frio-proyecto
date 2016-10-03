@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Add Stylesheet - Scripts - Fonts
 require 'inc/styles-scripts-fonts.php';
@@ -15,8 +15,8 @@ require 'inc/custom-header.php';
 // Custom Content
 require 'inc/custom-content.php';
 
-// Custom Footer
-require 'inc/custom-footer.php';
+// Footer Content
+require 'inc/footer-content.php';
 
 // Custom Currency (Change Bs F. to Bs.)
 require 'inc/custom-currency.php';
