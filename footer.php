@@ -11,7 +11,7 @@
 
 		</div><!-- .col-full -->
 		<!-- Agregar Google Maps -->
-		<?php if (is_front_page() || is_home() || is_page_template( 'template-homepage.php' ))
+		<?php if (is_front_page() || is_home() || is_page_template( 'template-homepage.php' ) || is_page( 'contactanos' ))
 			get_template_part( 'templates/google', 'maps' );
 		?>
 	</div><!-- #content -->
