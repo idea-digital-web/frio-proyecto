@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function custom_storefront_template_hook() {
 /**
@@ -28,7 +28,7 @@ function custom_storefront_template_hook() {
 	add_action( 'storefront_header', 'inner_container', 21 );
 	add_action( 'storefront_header', 'storefront_product_search', 25 );
 	add_action( 'storefront_header', 'header_cart', 26 );
-	add_action( 'storefront_header', 'banner_header', 35 );
+	// add_action( 'storefront_header', 'banner_header', 35 );
 	add_action( 'storefront_header', 'inner_container_close', 36 );
 	add_action( 'storefront_header', 'coll_full_container_close', 37 );
 	add_action( 'storefront_header', 'storefront_secondary_navigation', 41 );
@@ -39,9 +39,9 @@ function custom_storefront_template_hook() {
  * @see  storefront_footer_widgets()
  * @see  storefront_credit()
  */
-	remove_action( 'storefront_footer', 'storefront_footer_widgets', 10); 
-	remove_action( 'storefront_footer', 'storefront_credit', 20); 
-	add_action( 'storefront_footer', 'add_footer_content', 10);
+	remove_action( 'storefront_footer', 'storefront_footer_widgets', 10);
+	remove_action( 'storefront_footer', 'storefront_credit', 20);
+	add_action( 'storefront_footer', 'footer_content', 10);
 
 /**
  * Homepage

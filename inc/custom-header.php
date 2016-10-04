@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * HEADER
@@ -12,14 +12,14 @@ function storefront_site_branding() {
 	?>
 		<div class='logo_header'>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="http://i2.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/logo-header.jpeg" alt="Logo Header" />
+				<img src="http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/logo.png" alt="Logo Header" />
 			</a>
 		</div>
-	<?php 
+	<?php
 }
 
 /**
-Agregar Banner en el Header
+ * Agregar Banner en el Header
 */
 
 function banner_header() {
@@ -27,11 +27,11 @@ function banner_header() {
 		<picture>
 			<img src="http://i1.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-header.png" alt="Banner Header" />
 		</picture>
-	<?php 
+	<?php
 }
 
 /**
-Agrega background shadow a  barra de busqueda
+ * Agrega background shadow a  barra de busqueda
 */
 function storefront_product_search() {
 	if ( is_woocommerce_activated() ) { ?>
@@ -102,7 +102,7 @@ function inner_container_close() {
  * Custom H1 Storefront Page Header
  */
 function custom_storefront_page_header () {
-	if (!is_page('Home')): ?> 
+	if (!is_page('Home')): ?>
 	<header class="entry-header">
 		<?php
 			storefront_post_thumbnail( 'full' );

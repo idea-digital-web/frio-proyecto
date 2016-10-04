@@ -3,7 +3,7 @@
 	Nosotros
 	</h2>
 	<picture>
-		<img src="http://i0.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/logo-footer.png" alt="Logo Footer" />
+		<img src="http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/logo.png" alt="Logo Footer" />
 	</picture>
 	<p><?php bloginfo('description'); ?></p>
 	<span class="cards">
