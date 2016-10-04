@@ -1,3 +1,51 @@
+commit f0359970ad5f86192867d9031eef3d28aa27fdc3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 22:25:14 2016 -0400
+
+    Quitado banner header
+
+commit 5e8768130481536a8d05c846d1d2ed8840dadd3c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 22:16:57 2016 -0400
+
+    Cambiado translate
+
+commit a548f2bf2d3b1da83fa74958564ae2494a4c2806
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 21:43:58 2016 -0400
+
+    Cambiado Logo Login
+
+commit 7d4d825bae31ebbf287b796c5f15270d1b64da2f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 21:38:00 2016 -0400
+
+    Cambiado Idea Pro
+
+commit 87d32e08e5041c44349e3d4199885ff7613c08fb
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 21:32:49 2016 -0400
+
+    Agregado favicon
+
+commit 091b25fe38b8b8e91417045fd1af89ceeb24013a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 15:35:59 2016 -0400
+
+    Cambiado width de footer content
+
+commit 9a4d92c3b4364fb93cf2cb8758e9d50c9d9a8b85
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 15:29:25 2016 -0400
+
+    Cambiado logo
+
+commit 0deb67051813f9af0c0865d791ab40cf21d66fa4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 28 16:55:06 2016 -0400
+
+    Mejorado google maps
+
 commit 1d4d71eb69a17c40c2593c703d9eee1b94e203e3
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 28 16:21:36 2016 -0400
