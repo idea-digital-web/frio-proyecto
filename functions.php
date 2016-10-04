@@ -57,6 +57,9 @@ require 'inc/autoupdate.php';
 // Restringir Login
 require 'inc/restringir-login.php';
 
+// Traducciones
+require 'inc/translate.php';
+
 
 
 

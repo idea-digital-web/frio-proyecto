@@ -1,3 +1,9 @@
+commit a548f2bf2d3b1da83fa74958564ae2494a4c2806
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 21:43:58 2016 -0400
+
+    Cambiado Logo Login
+
 commit 7d4d825bae31ebbf287b796c5f15270d1b64da2f
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 3 21:38:00 2016 -0400
