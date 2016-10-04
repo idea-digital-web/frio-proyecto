@@ -1,3 +1,9 @@
+commit f0359970ad5f86192867d9031eef3d28aa27fdc3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 22:25:14 2016 -0400
+
+    Quitado banner header
+
 commit 5e8768130481536a8d05c846d1d2ed8840dadd3c
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 3 22:16:57 2016 -0400
