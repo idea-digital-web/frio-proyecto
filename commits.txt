@@ -1,3 +1,9 @@
+commit 5e8768130481536a8d05c846d1d2ed8840dadd3c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 22:16:57 2016 -0400
+
+    Cambiado translate
+
 commit a548f2bf2d3b1da83fa74958564ae2494a4c2806
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 3 21:43:58 2016 -0400
