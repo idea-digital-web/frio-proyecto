@@ -1,3 +1,9 @@
+commit eb1f198dfae7519162c38e73eaa7f8c05d2a80f8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Oct 5 17:19:38 2016 -0400
+
+    Cambiado correo de footer
+
 commit c4903d87de57a42eca7409d1797228fda40cdc72
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Oct 5 15:26:26 2016 -0400
