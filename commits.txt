@@ -1,3 +1,154 @@
+commit c4903d87de57a42eca7409d1797228fda40cdc72
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Oct 5 15:26:26 2016 -0400
+
+    Cambiado menu principal
+
+commit fe2b1caf3756b5a8b147e8825eeced5f5fcbac06
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 16:38:54 2016 -0400
+
+    Reducido alto de item en sub-menu
+
+commit 22c713c3a0650a64bc5831ecc9669a5b5f1f3613
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 16:35:38 2016 -0400
+
+    Reducido alto de item en submenu
+
+commit d1634e81902c4328be9c823e4a5e8cad2e35fdf0
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 16:31:26 2016 -0400
+
+    Reducido alto de item en submenu
+
+commit 5d1041ad526e05bca98a4b30ff3c27d09ea5a1de
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 15:26:49 2016 -0400
+
+    Agregado width a sub-menu
+
+commit c09320e402169c7844863880d085a1d7d860df62
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 15:19:41 2016 -0400
+
+    Cambiado redes sociales
+
+commit effdcbb829652d4de6f4422849d10b30a6b03b88
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 15:01:58 2016 -0400
+
+    Reducido margen izquierdo de icon dropdown
+
+commit b7477e530c7cec3c4a2ef040bb80e51ecd12530d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:55:21 2016 -0400
+
+    Cambiado hover de redes sociales
+
+commit d6d385065aaf338291c69781ab4507bedc595202
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:51:59 2016 -0400
+
+    Cambiado backgroun color de ver detalles
+
+commit c39b13474f9a38600a5751de6bc0d2613fa6c572
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:39:46 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit 34a9a9131e5e65aaafdb51f93433e3f74e946026
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:36:47 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit 019c6a5f0d70efd5f85801fc0bd9ce3ba698c912
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:34:12 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit 297d0166bf54c4855e3ac0819bd97875086487e1
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 12:00:07 2016 -0400
+
+    Cambiado font weidth
+
+commit 4ba7bf089bfa5e61cc5728e1f9ed9db488c5e15e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:47:07 2016 -0400
+
+    Cambiado color del boton del formulario
+
+commit abf9ddd38f12cd39b6996b1ba08b093818e9816f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:38:54 2016 -0400
+
+    cambiado url mymap
+
+commit f9e76cb576b94f7c22902f761b36adbdb12ca97a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:34:28 2016 -0400
+
+    agregado mapa a contactanos
+
+commit 32a0e68a1729ab94d5019511737e76edac11c6e9
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:28:28 2016 -0400
+
+    arreglando estilos del header
+
+commit 71dd7b1b878e5f3aa426d52b5efc4ceff871e61a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:12:00 2016 -0400
+
+    arreglando estilos del header
+
+commit 97b1af08be98410bf3337594a2f6724be695b606
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:59:11 2016 -0400
+
+    Mejorando footer
+
+commit 1086d0a7e6b3e20f27440434fc21b158d91594de
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:51:00 2016 -0400
+
+    Mejorando footer
+
+commit 1c895374287f6efb65ea587b694060d136077b7f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:41:51 2016 -0400
+
+    Reset
+
+commit e9b239122890092a92614d99734e6f260e1ed718
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:40:42 2016 -0400
+
+    Reset
+
+commit ec116f401ee1e99d4011397eb8f135628bc62631
+Merge: 79bd210 368c043
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:38:55 2016 -0400
+
+    Arreglando estilos de footer
+
+commit 79bd210d932ff88afafcc3eeed198fce859078d4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:38:09 2016 -0400
+
+    Arreglando estilos de footer
+
+commit 4f1e87445c6463889c3eda8147a8d144bf7858b0
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:36:45 2016 -0400
+
+    Arreglando estilos de footer
+
 commit 368c0435c8bbaa439fc1b5750cf71dc70f2f7e5f
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 3 22:50:22 2016 -0400

@@ -43,7 +43,9 @@
 	</div>
 	<div class="site-footer__item--contact">
 		<i class="fa fa-envelope"></i>
-		<span class="email"><?php bloginfo('admin_email'); ?></span>
+		<span>Correos:</span>
+		<!-- <span class="email"><?php bloginfo('admin_email'); ?></span> -->
+		<span><?php get_template_part( 'templates/add', 'email'); ?></span>
 	</div>
 <!-- 	<div class="site-footer__item--contact">
 		Somos tienda virtual con entregas previo acuerdo.
