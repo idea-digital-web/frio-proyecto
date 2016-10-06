@@ -1,3 +1,9 @@
+commit 111678bb3f10aba5b96ba754ed4e7b9c0c02facc
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Oct 5 17:26:25 2016 -0400
+
+    Reset
+
 commit 80fa528d9e7aa6d55148dc451ac0a4e3954cfb5e
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Oct 5 17:21:17 2016 -0400
