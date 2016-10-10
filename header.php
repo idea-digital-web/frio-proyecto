@@ -17,21 +17,13 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<!-- Viewport -->
 <?php get_template_part( 'templates/meta-viewport'); ?>
-<!-- End Viewport -->
 
-<!-- Favicon -->
 <?php get_template_part( 'templates/favicon'); ?>
-<!-- End Favicon -->
 
-<!-- Selectivzr -->
 <?php get_template_part( 'templates/selectivzr'); ?>
-<!-- End Selectivzr -->
 
-<!-- Inyección de enlaces con wp_head -->
 <?php wp_head(); ?>
-<!-- Fin inyección de enlaces con wp_head -->
 
 </head>
 
@@ -46,9 +38,8 @@
 	do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead" class="site-header" style="<?php storefront_header_styles(); ?>">
-	<?php get_template_part( 'templates/nav', 'login' ); ?>
 
-		
+
 		<!-- <div class="col-full"> -->
 
 			<?php

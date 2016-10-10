@@ -24,6 +24,7 @@ function custom_storefront_template_hook() {
 	remove_action( 'storefront_header', 'storefront_product_search', 40 );
 	remove_action( 'storefront_header', 'storefront_header_cart', 60);
 	remove_action( 'storefront_header', 'storefront_secondary_navigation', 30 );
+	add_action( 'storefront_header', 'nav_top_login', 18 );
 	add_action( 'storefront_header', 'coll_full_container', 19 );
 	add_action( 'storefront_header', 'inner_container', 21 );
 	add_action( 'storefront_header', 'storefront_product_search', 25 );
@@ -40,7 +41,6 @@ function custom_storefront_template_hook() {
  * @see  storefront_credit()
  */
 	remove_action( 'storefront_footer', 'storefront_footer_widgets', 10);
-	// remove_action( 'storefront_footer', 'storefront_credit', 20);
 	add_action( 'storefront_footer', 'footer_content', 10);
 
 /**
@@ -59,6 +59,8 @@ function custom_storefront_template_hook() {
 	remove_action( 'homepage', 'storefront_product_categories', 20 );
 	remove_action( 'homepage', 'storefront_featured_products', 40 );
 	remove_action( 'homepage', 'storefront_popular_products', 50 );
+	add_action( 'homepage', 'banners_content', 80 );
+	add_action( 'homepage_after_content', 'add_google_maps', 90 );
 
 /**
  * Layout
