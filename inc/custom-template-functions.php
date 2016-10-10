@@ -61,14 +61,13 @@ function nav_top_login(){
 			<span><?php bloginfo('admin_email'); ?></span>
 		</div>
 		<div class="site-header_nav--item site-header_nav--welcome">
-				<?php if ( is_user_logged_in() ) {?>
-				<?php global $current_user; wp_get_current_user(); if ($current_user->user_firstname == true): ?>
+				<?php if ( is_user_logged_in() ) {
+					global $current_user; wp_get_current_user(); if ($current_user->user_firstname == true): ?>
 				¡Bienvenido <?php echo ''. $current_user->user_firstname .'!'; else: ?>
 				¡Bienvenido!<?php endif?>
 			<nav class="site-header_nav--welcome--dropdown">
 				<button id="menuDropdown">
-					<span><i class="fa fa-th-list" aria-hidden="true"></i>
-	</span>
+					<span><i class="fa fa-th-list" aria-hidden="true"></i></span>
 					<!-- <i class="fa fa-chevron-down" aria-hidden="true" id="caretDown"></i>
 					<i class="fa fa-chevron-up hide" aria-hidden="true" id="caretUp"></i> -->
 				</button>

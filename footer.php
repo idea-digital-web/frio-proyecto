@@ -24,11 +24,7 @@
 
 </div><!-- #page -->
 
-
-
-
-<!-- Inyección de enlaces con wp_footer -->
 <?php wp_footer(); ?>
-<!-- Fin inyección de enlaces con wp_footer -->
+
 </body>
 </html>

@@ -17,50 +17,25 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<?php get_template_part( 'templates/meta-viewport'); ?>
-
-<?php get_template_part( 'templates/favicon'); ?>
-
-<?php get_template_part( 'templates/selectivzr'); ?>
+<?php do_action( 'head_meta' ); ?>
 
 <?php wp_head(); ?>
 
 </head>
+<body <?php body_class(); ?>>
 
-<!-- Google Analitics -->
+	<!-- Google Analitics -->
 <!-- <?php include_once('templates/analyticstracking.php') ?> -->
 
-<!-- Browse Happy -->
-<?php get_template_part( 'templates/browsehappy' ); ?>
+<?php do_action( 'after_head' ); ?>
 
 <div id="page" class="hfeed site">
-	<?php
-	do_action( 'storefront_before_header' ); ?>
+	<?php do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead" class="site-header" style="<?php storefront_header_styles(); ?>">
 
+			<?php do_action( 'storefront_header' ); ?>
 
-		<!-- <div class="col-full"> -->
-
-			<?php
-			/**
-			 * Functions hooked into storefront_header action
-			 *
-			 * @hooked storefront_skip_links                       - 0
-			 * @hooked storefront_social_icons                     - 10
-			 * @hooked storefront_site_branding                    - 20
-			 * @hoohed storefront_secondary_navigation_wrapper, 22
-			 * @hooked storefront_product_search                   - 30
-			 * @hooked storefront_secondary_navigation             - 40
-			 * @hoohed storefront_secondary_navigation_wrapper_close, 41
-			 * @hooked storefront_primary_navigation_wrapper       - 42
-			 * @hooked storefront_primary_navigation               - 50
-			 * @hooked storefront_header_cart                      - 60
-			 * @hooked storefront_primary_navigation_wrapper_close - 68
-			 */
-			do_action( 'storefront_header' ); ?>
-
-		<!-- </div> -->
 	</header><!-- #masthead -->
 
 	<?php

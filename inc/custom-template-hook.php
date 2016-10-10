@@ -1,6 +1,16 @@
 <?php
 
 function custom_storefront_template_hook() {
+
+/** Head */
+
+add_action( 'head_meta', 'add_meta_viewport', 10 );
+add_action( 'head_meta', 'add_favicon', 20 );
+add_action( 'head_meta', 'add_selectivzr', 30 );
+
+/** After Head */
+add_action( 'after_head', 'add_browsehappy', 10 );
+
 /**
  * General
  *
