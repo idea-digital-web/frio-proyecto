@@ -181,10 +181,10 @@ get_template_part( 'templates/footer', 'content' );
 function storefront_credit() {
 	?>
 	<div class="site-info">
-		<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
-		<?php if ( apply_filters( 'storefront_credit_link', true ) ) { ?>
-		<br /> <?php printf( esc_attr__( '%1$s designed by %2$s.', 'storefront' ), 'Storefront', '<a href="http://www.woothemes.com" title="Premium WordPress Themes & Plugins by WooThemes" rel="author">WooThemes</a>' ); ?>
-		<?php } ?>
+		<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_template_part( 'templates/add', 'razonsocial' ) . ' ' . date( 'Y' ) ) ); ?>
+		<?php if ( apply_filters( 'storefront_credit_link', true ) ) {
+			printf( esc_attr__( '%1$s por %2$s', 'storefront' ), '| Desarrollado', '<a href="http://www.ideadigital.com.ve/" title="IdeaPro" rel="author" target="_blank">IdeaPro</a>' );
+		} ?>
 	</div><!-- .site-info -->
 	<?php
 }

@@ -20,7 +20,7 @@
 	<?php do_action( 'storefront_before_footer' ); ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="col-full">
+		<!-- <div class="col-full"> -->
 			<?php
 				/**
 				 * Functions hooked in to storefront_footer action
@@ -30,10 +30,9 @@
 				 */
 			do_action( 'storefront_footer' ); ?>
 
-		</div><!-- .col-full -->
+		<!-- </div>    -->
+		<!-- .col-full -->
 	</footer><!-- #colophon -->
-
-	<?php get_template_part( 'templates/footer', 'credits'); ?>
 
 	<?php do_action( 'storefront_after_footer' ); ?>
 

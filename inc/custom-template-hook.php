@@ -40,7 +40,7 @@ function custom_storefront_template_hook() {
  * @see  storefront_credit()
  */
 	remove_action( 'storefront_footer', 'storefront_footer_widgets', 10);
-	remove_action( 'storefront_footer', 'storefront_credit', 20);
+	// remove_action( 'storefront_footer', 'storefront_credit', 20);
 	add_action( 'storefront_footer', 'footer_content', 10);
 
 /**
