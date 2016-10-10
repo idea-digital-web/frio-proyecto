@@ -1,3 +1,9 @@
+commit a7ce15ec5646f7c7ca61a4ede38be1a421c3e318
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Oct 7 10:18:53 2016 -0400
+
+    optimizado style.css
+
 commit f57dcb18faa42b69ee2067511067b2d1e1a0b3fd
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Oct 6 18:30:39 2016 -0400

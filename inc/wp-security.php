@@ -1,4 +1,18 @@
-<?php 
+<?php
+/** RESTRINGIR LOGIN */
+function restringir_login(){
+	global $current_user;
+	wp_get_current_user();
+
+	if ($current_user->user_level <  4) { //si no es admin no entra
+		wp_redirect( get_bloginfo('url') );
+		exit;
+	}
+
+}
+add_action('admin_init', 'restringir_login', 1);
+
+/** ADD GOOGLE reCAPTCHA */
 function wooc_validate_re_captcha_field( $username, $email, $wpErrors )
 {
     $remoteIP = $_SERVER['REMOTE_ADDR'];
@@ -44,4 +58,6 @@ function wooc_validate_re_captcha_field( $username, $email, $wpErrors )
     }
 }
 add_action( 'woocommerce_register_post', 'wooc_validate_re_captcha_field', 10, 3 );
- ?>
+
+
+?>
