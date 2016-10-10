@@ -8,21 +8,20 @@
 //      $currencies['ABC'] = __( 'Bolívares Débiles', 'woocommerce' );
 //      return $currencies;
 // }
-add_filter('woocommerce_currency_symbol', 'add_my_currency_symbol', 10, 2);
+
 function add_my_currency_symbol( $currency_symbol, $currency ) {
      switch( $currency ) {
           case 'VEF': $currency_symbol = 'Bs.'; break;
      }
      return $currency_symbol;
 }
+add_filter('woocommerce_currency_symbol', 'add_my_currency_symbol', 10, 2);
 
 /**
  * CUSTOM FIELDS BILLING
  * https://docs.woocommerce.com/document/tutorial-customising-checkout-fields-using-actions-and-filters/
  * https://surpriseazwebservices.com/edit-woocommerce-checkout-fields/
 */
-add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
-
 function custom_override_checkout_fields( $fields ) {
 	unset($fields['billing']['billing_address_2']);
 	unset($fields['billing']['billing_postcode']);
@@ -33,6 +32,7 @@ function custom_override_checkout_fields( $fields ) {
 
 return $fields;
 }
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 
 /**
 * FILTER TRANSLATIONS, to replace some WooCommerce text with our own
@@ -61,8 +61,6 @@ add_filter('gettext', 'wpse_77783_woo_bacs_ibn', 10, 3);
 
 /** LOAD PRETTY PHOTO for the whole site */
 
-add_action( 'wp_enqueue_scripts', 'frontend_scripts_include_lightbox' );
-
 function frontend_scripts_include_lightbox() {
   global $woocommerce;
   $suffix      = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
@@ -74,6 +72,7 @@ function frontend_scripts_include_lightbox() {
     wp_enqueue_style( 'woocommerce_prettyPhoto_css', $woocommerce->plugin_url() . '/assets/css/prettyPhoto.css' );
   }
 }
+add_action( 'wp_enqueue_scripts', 'frontend_scripts_include_lightbox' );
 
 /* add rel prettyphoto to all images */
 function autoadd_rel_prettyPhoto($content) {

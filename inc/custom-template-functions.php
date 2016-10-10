@@ -90,28 +90,36 @@ function header_cart() {
  * Coll Full
  */
 function coll_full_container() {
-	echo '<div class="col-full">';
+	?>
+	 <div class="col-full">
+	<?php
 }
 
 /**
  * Coll Full close
  */
 function coll_full_container_close() {
-	echo '</div>';
+	?>
+		</div>
+	<?php
 }
 
 /**
  * Header inner container
  */
 function inner_container() {
-	echo '<section class="inner_container">';
+	?>
+	 <section class="inner_container">
+	<?php
 }
 
 /**
  * Header inner container close
  */
 function inner_container_close() {
-	echo '</section>';
+	?>
+	</section>
+	<?php
 }
 
 
@@ -169,6 +177,18 @@ add_filter( 'storefront_popular_products_args', 'popular_products_title' );
 function footer_content() {
 get_template_part( 'templates/footer', 'content' );
 }
+
+function storefront_credit() {
+	?>
+	<div class="site-info">
+		<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
+		<?php if ( apply_filters( 'storefront_credit_link', true ) ) { ?>
+		<br /> <?php printf( esc_attr__( '%1$s designed by %2$s.', 'storefront' ), 'Storefront', '<a href="http://www.woothemes.com" title="Premium WordPress Themes & Plugins by WooThemes" rel="author">WooThemes</a>' ); ?>
+		<?php } ?>
+	</div><!-- .site-info -->
+	<?php
+}
+
 /**
  * PAGES
 */
