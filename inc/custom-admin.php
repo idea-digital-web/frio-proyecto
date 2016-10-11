@@ -32,10 +32,10 @@ add_filter( 'show_admin_bar' , 'my_function_admin_bar');
 */
 
 function new_mail_from($old) {
- return 'frioproyecto.master@gmail.com';
+ return get_bloginfo('admin_email');
 }
 function new_mail_from_name($old) {
- return 'Frio Proyecto';
+ return get_bloginfo( 'name' );
 }
 add_filter('wp_mail_from', 'new_mail_from');
 add_filter('wp_mail_from_name', 'new_mail_from_name');
