@@ -9,7 +9,17 @@
 
 ?>
 
+</div><!-- .col-full -->
 
+<?php 
+
+	if (is_front_page() || is_home() || is_page_template( 'template-homepage.php' ) || is_page( 'contactanos' ))
+
+		do_action( 'homepage_after_content' ); 
+
+?>
+
+</div><!-- #content -->
 
 
 	<?php do_action( 'storefront_before_footer' ); ?>

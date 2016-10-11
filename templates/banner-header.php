@@ -1,0 +1,1 @@
+http://i1.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-header.png

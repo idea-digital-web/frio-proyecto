@@ -1,0 +1,1 @@
+http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/logo.png

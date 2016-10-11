@@ -16,18 +16,18 @@ if ( ! function_exists( 'slider_principal' ) ) {
 					<div class="flexslider flexslider__principal">
 						<ul class="slides">
 							<li>
-								<a href="#">
-									<img src="http://i0.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-principal-1.png" alt="Slider Principal" />
+								<a href="<?php home_url(); get_template_part( 'templates/slider', 'url1'); ?>">
+									<img src="<?php get_template_part( 'templates/slider', 'image1'); ?>" alt="Slider Principal" />
 								</a>
 							</li>
 							<li>
-								<a href="#">
-									<img src="http://i2.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-principal-2.png" alt="Slider Principal" />
+								<a href="<?php home_url(); get_template_part( 'templates/slider', 'url2'); ?>">
+									<img src="<?php get_template_part( 'templates/slider', 'image2'); ?>" alt="Slider Principal" />
 								</a>
 							</li>
 							<li>
-								<a href="#">
-									<img src="http://i0.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-principal-3.png" alt="Slider Principal" />
+								<a href="<?php home_url(); get_template_part( 'templates/slider', 'url3'); ?>">
+									<img src="<?php get_template_part( 'templates/slider', 'image3'); ?>" alt="Slider Principal" />
 								</a>
 							</li>
 						</ul>
@@ -104,7 +104,7 @@ function storefront_site_branding() {
 	?>
 		<div class='logo_header'>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/logo.png" alt="Logo Header" />
+				<img src="<?php get_template_part( 'templates/logo', 'header'); ?>" alt="Logo Header" />
 			</a>
 		</div>
 	<?php
@@ -117,7 +117,7 @@ function storefront_site_branding() {
 function banner_header() {
 	?>
 		<picture>
-			<img src="http://i1.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-header.png" alt="Banner Header" />
+			<img src="<?php get_template_part( 'templates/banner', 'header'); ?>" alt="Banner Header" />
 		</picture>
 	<?php
 }
@@ -249,15 +249,19 @@ function banners_content(){
 	?>
 	<div class="content-area__slides">
 	  <div>
-	    <img src="http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/minibanner-1.jpg" alt="Slider Content" />
+	  <a href="<?php home_url(); get_template_part( 'templates/banner', 'url1'); ?>">
+	    <img src="<?php get_template_part( 'templates/banner', 'image1'); ?>" alt="Banner Content" />
+	  </a>
 	  </div>
 	  <div>
-	    <a href="http://frio.ideapruebas.com/servicios/">
-	      <img src="http://i0.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/minibanner-2.jpg" alt="Slider Content" />
+	    <a href="<?php home_url(); get_template_part( 'templates/banner', 'url2'); ?>">
+	      <img src="<?php get_template_part( 'templates/banner', 'image2'); ?>" alt="Banner Content" />
 	    </a>
 	  </div>
 	  <div>
-	    <img src="http://i2.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-content-3.png" alt="Slider Content" />
+	  <a href="<?php home_url(); get_template_part( 'templates/banner', 'url3'); ?>">
+	    <img src="<?php get_template_part( 'templates/banner', 'image3'); ?>" alt="Banner Content" />
+	  </a>
 	  </div>
 	</div>
 	<?php
@@ -267,7 +271,6 @@ function banners_content(){
  * HOMEPAGE AFTER CONTENT
  */
  function add_google_maps(){
-	 if (is_front_page() || is_home() || is_page_template( 'template-homepage.php' ) || is_page( 'contactanos' ))
 	 	?>
 		<iframe src="https://www.google.com/maps/d/embed?mid=13874Zt7-yIDIoR0CK2QtycNCsAk"
 			width="100%"
@@ -289,7 +292,7 @@ function footer_content() {
 		Nosotros
 		</h2>
 		<picture>
-			<img src="http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/logo.png" alt="Logo Footer" />
+			<img src="<?php get_template_part( 'templates/logo', 'footer'); ?>" alt="Logo Footer" />
 		</picture>
 		<p><?php bloginfo('description'); ?></p>
 		<span class="cards">

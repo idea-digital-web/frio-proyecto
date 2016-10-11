@@ -23,10 +23,6 @@ get_header(); ?>
 		</main><!-- #main -->
 
 	</div><!-- #primary -->
-</div><!-- .col-full -->
 
-<?php do_action( 'homepage_after_content' ); ?>
-
-</div><!-- #content -->
 <?php
 get_footer();

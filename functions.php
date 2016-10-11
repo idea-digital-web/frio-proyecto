@@ -3,10 +3,10 @@
 // Add Stylesheet - Scripts - Fonts
 require 'inc/enqueue-styles-scripts-fonts.php';
 
-// Add Meta Tag
+// Custom <head>
 require 'inc/custom-head.php';
 
-// Add Afetr </head> Tag
+// Add After </head> Tag
 require 'inc/after-head.php';
 
 // Custom Storefront Template Hook
@@ -21,10 +21,10 @@ require 'inc/custom-admin.php';
 // Custom Storefront Theme
 require 'inc/custom-storefront.php';
 
-// OPTIMIZACIÓN DE WP
+// WP Optimization
 require 'inc/wp-optimization.php';
 
-// SEGURIDAD DE WP
+// SWP Security
 require 'inc/wp-security.php';
 
 
