@@ -50,7 +50,7 @@ add_action( 'after_head', 'add_browsehappy', 10 );
  * @see  storefront_footer_widgets()
  * @see  storefront_credit()
  */
-	remove_action( 'storefront_footer', 'storefront_footer_widgets', 10);
+	//remove_action( 'storefront_footer', 'storefront_footer_widgets', 10);
 	add_action( 'storefront_footer', 'footer_content', 10);
 
 /**

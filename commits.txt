@@ -1,3 +1,9 @@
+commit e671aaa019f2656b6016cfc08385e3807ec9a357
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 10 20:41:38 2016 -0400
+
+    Optimizado templates de banners, sliders y logos
+
 commit e3f32096b168ac2574566df9ea54706f63c8f688
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 10 17:21:32 2016 -0400
