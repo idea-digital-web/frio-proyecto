@@ -1,3 +1,9 @@
+commit aa1dd7ac64ff00302d474e9b3ee67c293678ebd6
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 11 18:35:53 2016 -0400
+
+    Cambiado email admin
+
 commit 77ebbbbf7f35238d6690ffdd47853c0261acac4f
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Oct 11 15:26:51 2016 -0400
